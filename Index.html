@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Portfolio site</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="Icon" href="data:image/png;base64,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">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+      <script src="https://kit.fontawesome.com/5e42b58c43.js" crossorigin="anonymous"></script>
+  </head>
+    <body>
+	  
+        <div class="container">
+		<!--────────────────Header───────────────-->
+	<header>
+		<a class="logo" href="#home">
+              <img src="https://www.kaffeeteria.at/wp-content/uploads/2021/12/K-and-circle_white-300x286.png" alt="White K" />
+
+		</a>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">Home</a></li>
+			<li><a class="nav-link" href="#projects">Projects</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter"></div>
+		 <section class="intro">
+		  <h3>Danninger Kay<hr></h3>
+		  <p>IT interessent.</p>
+		  <p>Seit 2020 Experimentiere und Lerne ich über Hardware/Software und strebe neues zu Lernen.</p>
+			  
+		  <!--────social media links─────-->
+			 
+		  <div class="social-media">
+              <a href="https://www.tiktok.com/@gugulalli" target="https://www.tiktok.com/@gugulalli"><i class="fa-brands fa-tiktok"></i></a>
+			  <a href="https://github.com/Gugulagil" target="https://github.com/Gugulagil"><i class='fab fa-github'></i></a>
+			  <a href="https://www.youtube.com/channel/UCz3UYQkf9hhUttxgWVCoOwg" target="https://www.youtube.com/channel/UCz3UYQkf9hhUttxgWVCoOwg"><i class="fab fa-youtube"></i></a>
+              <a href="https://discord.com/app" target="https://discord.com/app"><i class="fa-brands fa-discord"></i></a>
+		    </div>
+			 
+		 </section> 
+	  </div>  
+        
+        
+		
+	  <!--───────────────Projects───────────────-->
+	  <div id="projects"> 
+		 <h3>Unterlagen<hr></h3>
+          <p>Hier sind all meine Unterlagen verlinkt</p>
+		  <div class="work-box">
+		  <div class="work">
+		<!--───────────────card───────────────-->
+			<div class="card">
+                 <img class="PDF's" src="https://play-lh.googleusercontent.com/BkRfMfIRPR9hUnmIYGDgHHKjow-g18-ouP6B2ko__VnyUHSi1spcc78UtZ4sVUtBH4g">
+			    <a href="Unterlagen.pdf" target: Download>
+				<div class="work-content">Unterlagen.</div></a>
+            </div>
+			   	<div class="card">
+			    <img class="Interessen schreiben" src="https://www.merkur.de/bilder/2016/05/26/6433135/999646785-urn-newsml-dpa-com-20090101-160525-99-65642_large_4_3-2uQIjHSg91fe.jpg">
+				<a href="interessen schreiben.pdf" target: download> 
+				<div class="work-content">Mein Interessen schreiben</div></a>
+            </div>
+              	<div class="card">
+			    <img class="Game" src="_blank">
+                    <a href="Game.Exe" download="Game.Exe">download Information</a> 
+				<div class="work-content">Kleines spiel</div>
+            </div>
+		 
+		<!--──────────────Contact────────────────-->
+	  <div id="contact">
+		  <!--────social media links─────-->
+		   <h3>Contact.<hr></h3>
+		   <p>Auf andere wege mich zu Erreichen außerhalb von Email und Telefonnummer.</p>
+          <p>(Telefon jedoch ist +43 677 6350 9848)</p>
+		    <div class="social-media">
+			<a href="https://www.tiktok.com/@gugulalli" target="https://www.tiktok.com/@gugulalli"><i class="fa-brands fa-tiktok"></i></a>
+			  <a href="https://github.com/Gugulagil" target="https://github.com/Gugulagil"><i class='fab fa-github'></i></a>
+			  <a href="https://www.youtube.com/channel/UCz3UYQkf9hhUttxgWVCoOwg" target="https://www.youtube.com/channel/UCz3UYQkf9hhUttxgWVCoOwg"><i class="fab fa-youtube"></i></a>
+              <a href="https://discord.com/app" target="https://discord.com/app"><i class="fa-brands fa-discord"></i></a>
+		    </div>
+		  </div>
+
+	</main>
+	  <footer class="copyright">© 2023
+		  <a href="_blank" target="_blank"> kay Danninger</a>
+     </footer>
+	  
+  </div>
+  
